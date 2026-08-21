@@ -230,6 +230,55 @@ body {
 }
 
 /* =====================
+   PAYMENT BUTTONS (BAOKIM)
+   ===================== */
+.bk-btn-box,
+.bk-btn-installment,
+.bk-btn-installment-amigo,
+.bk-btn-paynow {
+    width: 100% !important;
+}
+
+.bk-btn-installment,
+.bk-btn-installment-amigo,
+.bk-btn-paynow {
+    min-height: 60px !important;
+}
+
+.bk-btn-paynow span {
+    display: none !important;
+}
+
+/* =====================
+   TAB CONTENT TYPOGRAPHY
+   ===================== */
+.desc-text {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.features-list-spaced {
+    margin-top: 15px;
+}
+
+.policy-group {
+    margin-bottom: 25px;
+}
+
+.policy-group:last-child {
+    margin-bottom: 0;
+}
+
+.policy-group h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* =====================
    RESPONSIVE
    ===================== */
 .menu-toggle {
