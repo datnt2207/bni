@@ -49,6 +49,27 @@
     gap: 30px;
 }
 
+/* Nhóm sản phẩm có tiêu đề riêng */
+.shop-group + .shop-group {
+    margin-top: 60px;
+}
+
+.group-title {
+    margin-bottom: 30px;
+}
+
+.group-title h2 {
+    font-size: 24px;
+}
+
+/* Grid 2 sản phẩm: 570px = đúng 2 cột + 1 gap của grid 4 cột,
+   nên card rộng bằng card ở grid 4 cột thay vì bị phình ra */
+.member-shop-2 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 570px;
+    margin: 0 auto;
+}
+
 /* Product Card - shop sizing */
 .product-card {
     padding: 20px;
@@ -123,6 +144,10 @@
 @media (max-width: 1024px) {
     .member-shop {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .member-shop-2 {
+        max-width: none;
     }
 }
 
